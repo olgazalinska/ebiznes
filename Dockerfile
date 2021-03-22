@@ -23,7 +23,6 @@ RUN echo "deb https://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.lis
 
 RUN apt-get install -y npm
 
-
 EXPOSE 9000
 EXPOSE 3000
 
